@@ -1,0 +1,11 @@
+@import '_content/Entities/Entities.ct2sqec9nk.bundle.scp.css';
+@import '_content/Repositories/Repositories.utkuifjbey.bundle.scp.css';
+@import '_content/Services/Services.90saxgb18z.bundle.scp.css';
+
+/* _content/Presentation/Component1.razor.rz.scp.css */
+.my-component[b-i2fgjsflka] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}

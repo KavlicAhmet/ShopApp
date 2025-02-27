@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Product>
+
+
+
+<div class="row">
+	@foreach (var p in Model)
+	{
+		<partial name="_Card" model="p" />
+	}
+</div>

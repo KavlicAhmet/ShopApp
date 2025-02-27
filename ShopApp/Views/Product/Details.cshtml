@@ -1,0 +1,45 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="container">
+    <h4>Product</h4>
+    <div class="row">
+        <div class="col-md-4 my-3">
+            <img class="rounded-circle shadow" src="@Model?.ImageUrl" alt="@Model?.ProductName"/>
+        </div
+        <div class="col-md-8 my-3">
+            <div>
+                <dl class="row">
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.ProductName)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.ProductName)
+                    </dd>
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.Price)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Price)
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <form id="@Model.ProductId" asp-page="/cart" method="post">
+                    <input type="hidden" asp-for="ProductId" />
+                    <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                    <button type="submit" class="btn btn-outline-primary">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
+                </form>
+	            <a class="btn btn-warning" asp-action="Index">Back to Shopping</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

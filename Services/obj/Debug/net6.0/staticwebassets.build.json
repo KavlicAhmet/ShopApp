@@ -1,0 +1,1097 @@
+{
+  "Version": 1,
+  "Hash": "EypcSjsownLSYMkIWrFy1r2eiFyLBBo0TkTmogXcwRg=",
+  "Source": "Services",
+  "BasePath": "_content/Services",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\Entities.csproj",
+      "Version": 2,
+      "Source": "Entities",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\Repositories.csproj",
+      "Version": 2,
+      "Source": "Repositories",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Entities\\wwwroot",
+      "Source": "Entities",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\",
+      "BasePath": "_content/Entities",
+      "Pattern": "**"
+    },
+    {
+      "Name": "Repositories\\wwwroot",
+      "Source": "Repositories",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\",
+      "BasePath": "_content/Repositories",
+      "Pattern": "**"
+    },
+    {
+      "Name": "Services\\wwwroot",
+      "Source": "Services",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\",
+      "BasePath": "_content/Services",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Entities.bundle.scp.css",
+      "SourceId": "Entities",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Entities",
+      "RelativePath": "Entities#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "ct2sqec9nk",
+      "Integrity": "QE8vQthm4/NFSlT744mKXgfXNV5+TvBxczvaEmmAc/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Entities.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\background.png",
+      "SourceId": "Entities",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\",
+      "BasePath": "_content/Entities",
+      "RelativePath": "background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2rx4ajns0",
+      "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "Entities",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\",
+      "BasePath": "_content/Entities",
+      "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqz8bsss0",
+      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Repositories.bundle.scp.css",
+      "SourceId": "Repositories",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Repositories",
+      "RelativePath": "Repositories#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "utkuifjbey",
+      "Integrity": "8qIjocqbh7YEy+l4mDHtciSdIY1VogWvEXqC9mWpmak=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Repositories.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\background.png",
+      "SourceId": "Repositories",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\",
+      "BasePath": "_content/Repositories",
+      "RelativePath": "background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2rx4ajns0",
+      "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "Repositories",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\",
+      "BasePath": "_content/Repositories",
+      "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqz8bsss0",
+      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Services.styles.css",
+      "SourceId": "Services",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Services",
+      "RelativePath": "Services#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "h298mvwm8p",
+      "Integrity": "F+5U5WyXRvuKcf7uk752J3zFLcIF12PcfBIqqztXsbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Services.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Services.bundle.scp.css",
+      "SourceId": "Services",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Services",
+      "RelativePath": "Services#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "90saxgb18z",
+      "Integrity": "SZ3HrpMYNqVXMPlgtldU2c7vWtW2H7Nq69vcwLIMFqY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Services.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\background.png",
+      "SourceId": "Services",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\",
+      "BasePath": "_content/Services",
+      "RelativePath": "background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2rx4ajns0",
+      "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "Services",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\",
+      "BasePath": "_content/Services",
+      "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqz8bsss0",
+      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Entities/background.png",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:27:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Entities/background.x2rx4ajns0.png",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:27:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2rx4ajns0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Entities/background.png"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Entities/Entities.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Entities.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QE8vQthm4/NFSlT744mKXgfXNV5+TvBxczvaEmmAc/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:40:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QE8vQthm4/NFSlT744mKXgfXNV5+TvBxczvaEmmAc/M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Entities/Entities.ct2sqec9nk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Entities.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QE8vQthm4/NFSlT744mKXgfXNV5+TvBxczvaEmmAc/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:40:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ct2sqec9nk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QE8vQthm4/NFSlT744mKXgfXNV5+TvBxczvaEmmAc/M="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Entities/Entities.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Entities/exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:27:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Entities/exampleJsInterop.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Entities/exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Entities\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:27:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Repositories/background.png",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:44:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Repositories/background.x2rx4ajns0.png",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:44:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2rx4ajns0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Repositories/background.png"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Repositories/exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:44:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Repositories/exampleJsInterop.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Repositories/exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 14:44:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Repositories/Repositories.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Repositories.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8qIjocqbh7YEy+l4mDHtciSdIY1VogWvEXqC9mWpmak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 15:02:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8qIjocqbh7YEy+l4mDHtciSdIY1VogWvEXqC9mWpmak="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Repositories/Repositories.utkuifjbey.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Repositories.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8qIjocqbh7YEy+l4mDHtciSdIY1VogWvEXqC9mWpmak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 15:02:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "utkuifjbey"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8qIjocqbh7YEy+l4mDHtciSdIY1VogWvEXqC9mWpmak="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Repositories/Repositories.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "background.png",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "background.x2rx4ajns0.png",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2rx4ajns0"
+        },
+        {
+          "Name": "label",
+          "Value": "background.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "Services.90saxgb18z.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Services.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SZ3HrpMYNqVXMPlgtldU2c7vWtW2H7Nq69vcwLIMFqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 22:56:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "90saxgb18z"
+        },
+        {
+          "Name": "label",
+          "Value": "Services.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SZ3HrpMYNqVXMPlgtldU2c7vWtW2H7Nq69vcwLIMFqY="
+        }
+      ]
+    },
+    {
+      "Route": "Services.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Services.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SZ3HrpMYNqVXMPlgtldU2c7vWtW2H7Nq69vcwLIMFqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 22:56:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SZ3HrpMYNqVXMPlgtldU2c7vWtW2H7Nq69vcwLIMFqY="
+        }
+      ]
+    },
+    {
+      "Route": "Services.h298mvwm8p.styles.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Services.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+5U5WyXRvuKcf7uk752J3zFLcIF12PcfBIqqztXsbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 22:56:48 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Entities/Entities.ct2sqec9nk.bundle.scp.css>; rel=\"preload\"; as=\"style\", <_content/Repositories/Repositories.utkuifjbey.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h298mvwm8p"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+5U5WyXRvuKcf7uk752J3zFLcIF12PcfBIqqztXsbI="
+        },
+        {
+          "Name": "label",
+          "Value": "Services.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Services.styles.css",
+      "AssetFile": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Services.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+5U5WyXRvuKcf7uk752J3zFLcIF12PcfBIqqztXsbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 22:56:48 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Entities/Entities.ct2sqec9nk.bundle.scp.css>; rel=\"preload\"; as=\"style\", <_content/Repositories/Repositories.utkuifjbey.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+5U5WyXRvuKcf7uk752J3zFLcIF12PcfBIqqztXsbI="
+        }
+      ]
+    }
+  ]
+}

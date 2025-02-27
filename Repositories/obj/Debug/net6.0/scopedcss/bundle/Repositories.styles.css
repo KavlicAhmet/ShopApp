@@ -1,0 +1,9 @@
+@import '_content/Entities/Entities.ct2sqec9nk.bundle.scp.css';
+
+/* _content/Repositories/Component1.razor.rz.scp.css */
+.my-component[b-hsn5wnrpd2] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}

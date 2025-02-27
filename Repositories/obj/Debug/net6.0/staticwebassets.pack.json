@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Repositories.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Repositories.utkuifjbey.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Repositories\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Repositories.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Repositories.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Repositories.props",
+      "PackagePath": "build\\Repositories.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Repositories.props",
+      "PackagePath": "buildMultiTargeting\\Repositories.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Repositories.props",
+      "PackagePath": "buildTransitive\\Repositories.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

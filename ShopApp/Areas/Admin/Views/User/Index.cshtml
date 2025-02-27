@@ -1,0 +1,41 @@
+﻿@model IEnumerable<IdentityUser>
+
+<div class="d-flex justify-content-end my-3">
+    <a class="btn btn-outline-success" asp-area="Admin" asp-controller="User" asp-action="Create">
+        <i class="fa-solid fa-plus"></i>
+        Create
+    </a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">UserName</th>
+            <th scope="col">Roles</th>
+            <th scope="col">Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (IdentityUser user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.UserName</td>
+                <td user-name="@user.UserName" user-role=""></td>
+                <td>
+                    <div class="btn-group">
+                        <a class="btn btn-sm btn-warning" asp-action="Update" asp-route-id="@user.UserName">Edit</a>
+                        <a class="btn btn-sm btn-info" asp-action="ResetPassword" asp-route-id="@user.UserName">Reset Password</a>
+                        <form asp-action="DeleteOneUser" method="post">
+                            <input type="hidden" name="UserName" value="@user.UserName" />
+                            <button type="submit" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+        
+    </tbody>
+</table>

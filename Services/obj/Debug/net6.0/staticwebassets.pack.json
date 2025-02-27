@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Services.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Services.90saxgb18z.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\kavli\\works\\MyWebSite\\MyWebSite_4\\ShopApp\\Services\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Services.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Services.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Services.props",
+      "PackagePath": "build\\Services.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Services.props",
+      "PackagePath": "buildMultiTargeting\\Services.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Services.props",
+      "PackagePath": "buildTransitive\\Services.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

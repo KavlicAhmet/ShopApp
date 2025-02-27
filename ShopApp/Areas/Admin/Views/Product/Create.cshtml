@@ -1,0 +1,67 @@
+﻿@model ProductDtoForInsertion
+
+@{
+    ViewData["Title"] = "Create New Item";
+}
+
+<h1>Create New Item</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" asp-action="Create" enctype="multipart/form-data">
+            <div class="text-danger" asp-validation-summary="All"></div>
+
+            <!-- Name Input -->
+            <div class="mb-3">
+                <label asp-for="ProductName" class="form-label">Name</label>
+                <input asp-for="ProductName" class="form-control" placeholder="Enter Name" />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+
+            <!-- Summary Input -->
+            <div class="mb-3">
+                <label asp-for="Summary" class="form-label">Summary</label>
+                <input asp-for="Summary" class="form-control" placeholder="Enter Summary" />
+                <span asp-validation-for="Summary" class="text-danger"></span>
+            </div>
+
+            <!-- Price Input -->
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label">Price</label>
+                <input asp-for="Price" class="form-control" placeholder="Enter Price"></input>
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <!-- Select Category -->
+            <div class="mb-3">
+                <label asp-for="CategoryId" class="form-label">Category</label>
+                <select class="form-control" asp-items="@ViewBag.Categories" asp-for="CategoryId">
+                    <option selected>Select a Category </option>
+                </select>
+            </div>
+
+            <!-- Select Image -->
+            <div class="mb-3">
+                <label asp-for="ImageUrl" class="form-label">Price</label>
+                <input name="file" type="file" class="form-control" placeholder="Enter Price"></input>
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+
+            <!-- Submit & Cancel Buttons -->
+            <div class="mb-3">
+                <div class="btn-group" role="group" aria-label="Basic example">
+					<button type="submit" class="btn btn-primary">
+						<i class="fa-solid fa-floppy-disk"></i>
+						Create
+					</button>
+					<a asp-area="Admin" asp-controller="Product" asp-action="Index" class="btn btn-secondary">
+						<i class="fa-solid fa-ban"></i>
+						Cancel
+					</a>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</div>
+
